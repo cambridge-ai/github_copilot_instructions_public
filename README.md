@@ -9,18 +9,18 @@ This repository contains custom instruction files for GitHub Copilot to help opt
 ## Repository Structure
 
 - **protocols/**: Instructions for various communication protocols
-  - `a2a_instructions.md`: Agent-to-Agent communication instructions
-  - `mcp_instructions.md`: Model Context Protocol instructions
-  - `rest_api_instructions.md`: REST API development instructions
+  - `a2a.instructions.md`: Agent-to-Agent communication instructions
+  - `mcp.instructions.md`: Model Context Protocol instructions
+  - `rest_api.instructions.md`: REST API development instructions
 
 - **python/**: Instructions for Python development
-  - `python_api_development.md`: Python API development best practices
-  - `python_best_practices.md`: General Python best practices
-  - `python_data_science.md`: Data science with Python
-  - `python_guide.md`: General Python guidance
-  - `python_scripting.md`: Python scripting instructions
-  - `python_testing_quality.md`: Python testing and quality assurance
-  - `python_web_development.md`: Python web development
+  - `python_api_development.instructions.md`: Python API development best practices
+  - `python_best_practices.instructions.md`: General Python best practices
+  - `python_data_science.instructions.md`: Data science with Python
+  - `python_guide.instructions.md`: General Python guidance
+  - `python_scripting.instructions.md`: Python scripting instructions
+  - `python_testing_quality.instructions.md`: Python testing and quality assurance
+  - `python_web_development.instructions.md`: Python web development
 
 ## How to Use These Instructions in VS Code
 
@@ -40,7 +40,7 @@ To add these custom instructions to GitHub Copilot in Visual Studio Code:
    - Click "Add Item" and enter the absolute or relative path to the instruction files you want to use
    - You can add individual files or use glob patterns like:
      ```
-     /Users/username/Documents/dev/github_copilot_instructions/**/*.md
+     /Users/username/Documents/dev/github_copilot_instructions/**/*.instructions.md
      ```
 
 5. Save the settings
