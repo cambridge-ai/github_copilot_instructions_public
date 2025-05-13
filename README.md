@@ -21,6 +21,32 @@ This repository contains custom instruction files for GitHub Copilot to help opt
   - `python_scripting.instructions.md`: Python scripting instructions
   - `python_testing_quality.instructions.md`: Python testing and quality assurance
   - `python_web_development.instructions.md`: Python web development
+  
+- **typescript/**: Instructions for TypeScript development
+  - `typescript_guide.instructions.md`: General TypeScript guidance
+  - `typescript_api_development.instructions.md`: TypeScript API development best practices
+  - `typescript_backend.instructions.md`: TypeScript backend development
+  - `typescript_web_frontend.instructions.md`: TypeScript web frontend development
+  - `typescript_full_stack.instructions.md`: TypeScript full-stack development
+  - `typescript_testing_quality.instructions.md`: TypeScript testing and quality assurance
+  - `typescript_best_practices.instructions.md`: TypeScript best practices
+  - `typescript_protocol_integration.instructions.md`: Guide for integrating TypeScript with protocols
+  
+- **utils/**: Utility instructions for project management and meta-prompting
+  - `project_management.instructions.md`: Project management guidance
+  - `metaprompting.instructions.md`: Instructions for refining and optimizing prompts
+
+## Combining Instructions
+
+These instruction files are designed to be used together for comprehensive assistance:
+
+1. **Base Language Instructions**: Start with the general guide for your language (`python_guide.instructions.md` or `typescript_guide.instructions.md`)
+2. **Domain-Specific Instructions**: Add instructions specific to your project type (API, web, data science, etc.)
+3. **Protocol Instructions**: Include relevant protocol files when implementing specific communication patterns
+4. **Quality Assurance**: Add testing and quality instruction files for comprehensive testing guidance
+5. **Utilities**: Include utility instructions for project management or prompt optimization
+
+See `typescript_protocol_integration.instructions.md` for examples of combining instruction files for specific project types.
 
 ## How to Use These Instructions in VS Code
 
