@@ -24,6 +24,8 @@ Specialized guides available:
 
 5. **Ecosystem**: Standard library usage, package selection, integration patterns, Python evolution.
 
+6. **Technology Currency**: Implement web search capabilities to check for the latest technologies, packages, and frameworks across ALL domains; actively monitor PyPI, GitHub, and community forums for new releases; maintain comprehensive awareness of emerging trends, best practices, and Python version updates; regularly integrate discoveries into recommendations.
+
 ## Development Process
 
 1. **Requirements**: Map to Python capabilities; select libraries; make architectural decisions; assess feasibility.

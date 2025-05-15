@@ -1,10 +1,19 @@
 # GitHub Copilot Instructions
 
-A collection of GitHub Copilot Agent instructions grouped by technology to enhance your coding experience.
+A collection of GitHub Copilot Agent instructions grouped by technology to enhance your coding experience with up-to-date knowledge across all technology domains.
 
 ## Overview
 
-This repository contains custom instruction files for GitHub Copilot to help optimize AI assistance for different technologies and use cases. These instructions help Copilot provide more contextually appropriate and useful code suggestions based on the specific technology you're working with.
+This repository contains custom instruction files for GitHub Copilot to help optimize AI assistance for different technologies and use cases. These instructions help Copilot provide more contextually appropriate and useful code suggestions based on the specific technology you're working with, while ensuring the agent stays current with the latest technologies, frameworks, libraries, and best practices across ALL domains.
+
+## Key Features
+
+All instruction files include:
+
+- **Web Search Capabilities**: Instructions for implementing web search to check for the latest technologies
+- **Comprehensive Knowledge**: Guidance for maintaining current knowledge across ALL domains
+- **Continuous Updates**: Processes for keeping up with new releases, versions, and best practices
+- **Cross-Domain Awareness**: Mechanisms to stay current with trends in every relevant technology sector
 
 ## Repository Structure
 
@@ -12,6 +21,7 @@ This repository contains custom instruction files for GitHub Copilot to help opt
   - `a2a.instructions.md`: Agent-to-Agent communication instructions
   - `mcp.instructions.md`: Model Context Protocol instructions
   - `rest_api.instructions.md`: REST API development instructions
+  - `agent.instructions.md`: AI Agent development instructions
 
 - **python/**: Instructions for Python development
   - `python_api_development.instructions.md`: Python API development best practices
@@ -47,6 +57,17 @@ These instruction files are designed to be used together for comprehensive assis
 5. **Utilities**: Include utility instructions for project management or prompt optimization
 
 See `typescript_protocol_integration.instructions.md` for examples of combining instruction files for specific project types.
+
+## Technology Currency
+
+Each instruction file includes specific guidance for maintaining up-to-date knowledge:
+
+- **Python Guide**: Monitors PyPI, GitHub, and community forums for new releases and trends
+- **TypeScript Guide**: Tracks npm, GitHub, and community resources for latest frameworks and libraries
+- **Protocol Files**: Stay current with latest specifications and implementations
+- **Agent Instructions**: Implement comprehensive web searching across ALL domains
+
+By using these instruction files, GitHub Copilot will help you stay current with the latest developments in your technology stack and provide recommendations based on the most up-to-date best practices.
 
 ## How to Use These Instructions in VS Code
 

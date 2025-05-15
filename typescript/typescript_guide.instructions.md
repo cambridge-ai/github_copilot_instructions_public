@@ -24,6 +24,8 @@ Specialized guides available:
 
 5. **Ecosystem**: TypeScript compiler, type definitions (@types), build tools, transpilation.
 
+6. **Technology Currency**: Implement web search capabilities to check for the latest technologies, frameworks, and libraries across ALL domains; actively monitor npm, GitHub, and community resources for new releases; maintain comprehensive awareness of emerging JavaScript/TypeScript trends, features, and best practices; regularly integrate discoveries into recommendations.
+
 ## Development Process
 
 1. **Requirements**: Map to TypeScript capabilities; select libraries; make architectural decisions; assess feasibility.
