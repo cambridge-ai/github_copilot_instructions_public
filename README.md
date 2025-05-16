@@ -87,8 +87,10 @@ To add these custom instructions to GitHub Copilot in Visual Studio Code:
    - Click "Add Item" and enter the absolute or relative path to the instruction files you want to use
    - You can add individual files or use glob patterns like:
      ```
-     /Users/username/Documents/dev/github_copilot_instructions/**/*.instructions.md
+     /Users/username/Documents/dev/github_copilot_instructions_public/**/*.instructions.md
      ```
+   - Above is an example. You may pull the repository anywhere as long as `github_copilot_instructions_public/**/*.instructions.md` will be used.
+   - This will include all instruction files in the specified directory and its subdirectories
 
 5. Save the settings
 
