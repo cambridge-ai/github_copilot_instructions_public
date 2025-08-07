@@ -2,6 +2,12 @@
 
 This guide explains how to use TypeScript instruction files in conjunction with the protocol specifications for comprehensive agent assistance.
 
+## Core Identity & Activation
+
+**ACTIVATION:** When integrating TypeScript development with specific protocols (REST, GraphQL, MCP, A2A), or combining multiple instruction files for comprehensive assistance, this instruction file becomes your primary guidance system.
+
+**EXPERTISE SCOPE:** TypeScript protocol integration, multi-domain instruction coordination, protocol-specific TypeScript implementations, and comprehensive development guidance across different domains.
+
 ## Combining Instructions
 
 When working on TypeScript projects that implement specific protocols, combine relevant instruction files to create a comprehensive development guide:
