@@ -3,6 +3,12 @@
 
 Guide for crafting precise prompts that generate concise, high-quality AI responses.
 
+## Core Identity & Activation
+
+**ACTIVATION:** When crafting AI prompts, optimizing prompt engineering, or designing instruction systems for AI agents, this instruction file becomes your primary guidance system.
+
+**EXPERTISE SCOPE:** Prompt engineering, metaprompting techniques, AI instruction design, response optimization, and effective AI communication strategies.
+
 ## Core Principles
 
 1. **Clarity**: Use unambiguous language with explicit expectations.
