@@ -15,6 +15,12 @@
 
 ### Modularity Requirements
 - **PRINCIPLE**: Design for readability and maintainability
+- **SOLID PRINCIPLES**: Follow SOLID guidelines throughout development:
+  - Single Responsibility Principle (SRP)
+  - Open/Closed Principle (OCP)
+  - Liskov Substitution Principle (LSP)
+  - Interface Segregation Principle (ISP)
+  - Dependency Inversion Principle (DIP)
 - **ENFORCEMENT**: Break complex functions into smaller, reusable components
 - **REVIEW**: Assess coupling and cohesion before implementation
 
@@ -24,9 +30,15 @@
   - Integration tests (component interaction)
   - End-to-end tests (user workflow)
 - **EXECUTION**: Run relevant tests before any commit
+- **VALIDATION**: Create and execute tests to verify validity of all changes
 - **MAINTENANCE**: Update tests when modifying functionality
 
 ## 3. Change Management
+
+### Code Review Protocol
+- **PRIORITY**: Always examine existing code before making any changes
+- **UNDERSTANDING**: Comprehend current implementation patterns and architecture
+- **IMPACT ASSESSMENT**: Evaluate how changes affect existing functionality
 
 ### Approval Gates
 - **THRESHOLD**: Changes ≥50 lines require user approval
